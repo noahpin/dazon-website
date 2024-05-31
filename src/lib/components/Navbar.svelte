@@ -13,9 +13,6 @@
 	<div class="navbar-inner">
 		<a href="../"> <Logo width="25"></Logo></a>
 		<a href="../" class={$page.url.pathname == "/" ? "active" : ""}>projects</a>
-		<a href="../about" class={$page.url.pathname == "/about" ? "active" : ""}
-			>about</a
-		>
 		<a href="https://discord.gg/wb9xS2d9eg" target="_blank"
 			><Icon
 				src={RiLogosDiscordFill}
