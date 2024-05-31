@@ -8,7 +8,7 @@
 </script>
 <footer>
     <a href="../"> <Logo width="25"></Logo></a>
-    <a href="https://discord.dazon.xyz/" target="_blank"
+    <a href="https://discord.gg/wb9xS2d9eg" target="_blank"
         ><Icon
             src={RiLogosDiscordFill}
             size="28"
