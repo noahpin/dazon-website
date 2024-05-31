@@ -73,23 +73,39 @@
 		<p>eu:</p>
 		<img src={Keygem} alt="" />
 	</a>
-	<a class="vendor-card">
+	<a
+		class="vendor-card"
+		href="https://prototypist.net/products/group-buy-kam-astha"
+		target="_blank"
+	>
 		<p>uk:</p>
 		<img src={Prototypist} alt="" />
 	</a>
-	<a class="vendor-card">
+	<a
+		class="vendor-card"
+		href="https://www.keebzncables.com/products/group-buy-kam-astha-keycaps"
+		target="_blank"
+	>
 		<p>oce:</p>
 		<img src={Keebzncables} alt="" />
 	</a>
-	<a class="vendor-card">
+	<a class="vendor-card" href="https://ilumkb.com/" target="_blank">
 		<p>sea:</p>
 		<img src={Ilumkb} alt="" />
 	</a>
-	<a class="vendor-card">
+	<a
+		class="vendor-card"
+		href="https://en.zfrontier.com/products/group-buy-kam-astha/"
+		target="_blank"
+	>
 		<p>cn:</p>
 		<img src={Zfrontier} alt="" />
 	</a>
-	<a class="vendor-card">
+	<a
+		class="vendor-card"
+		href="https://en.zfrontier.com/products/group-buy-kam-astha"
+		target="_blank"
+	>
 		<p>worldwide:</p>
 		<img src={Keyreative} alt="" />
 	</a>
@@ -188,8 +204,8 @@
 		margin: 30px auto;
 		width: fit-content;
 		margin-top: 50px;
-        display: flex;
-        align-items: center;
-        gap: 40px;
+		display: flex;
+		align-items: center;
+		gap: 40px;
 	}
 </style>
