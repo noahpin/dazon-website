@@ -15,7 +15,7 @@
 		});
 	});
 </script>
-
+<head></head>
 <main>
 	<Navbar></Navbar>
 	<slot></slot>

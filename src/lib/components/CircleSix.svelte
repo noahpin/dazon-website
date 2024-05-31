@@ -1,12 +1,12 @@
 
 <script>
-    export let width = 100;
+    export let height = 100;
 </script>
 <svg
 	id="uuid-e9fbd5e2-9826-4727-8117-2f285cd4d08c"
 	data-name="Layer 2"
 	xmlns="http://www.w3.org/2000/svg"
-	{width}
+	{height}
 	viewBox="0 0 69.052 77.128"
 >
 	<g id="uuid-06179082-7991-44b1-9253-2644dbfafb1d" data-name="novelties">

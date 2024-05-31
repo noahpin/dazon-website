@@ -9,9 +9,10 @@
 	import Prototypist from "$lib/assets/logos/prototypist.png";
 	import Zfrontier from "$lib/assets/logos/zfrontier.png";
 	import D from "$lib/components/D.svelte";
-    import AsthaLogo from "$lib/components/AsthaLogo.svelte";
+	import CircleSix from "$lib/components/CircleSix.svelte";
+	import SeventhLogo from "$lib/components/SeventhLogo.svelte";
 
-    var heightOverride = 'min(300px, 65vh)'
+	var heightOverride = "min(300px, 65vh)";
 </script>
 
 <div class="fullpage-wrapper">
@@ -24,16 +25,19 @@
 			headerText={"KAM ASTHA"}
 			status={"ic"}
 			customStatus={"Group Buy May 31st"}
-            forceView={true}
+			forceView={true}
 		></ProjectImage>
 	</div>
 </div>
 <p>
-    IN ANOTHER UNIVERSE, NOT TOO DISSIMILAR FROM OURS, THERE EXISTS THE PLANET &lt;ASTHA&gt;. TO LEARN ABOUT THEM, WE MUST COMMUNICATE. TO COMMUNICATE, WE MUST BE ABLE TO TYPE.
-<br><br>
-    THIS KEYCAP SET IS A MANIFESTATION OF THE &lt;ASTHAN&gt; LANGUAGE, ADAPTED FOR SIMPLE ENGLISH TRANSLATION.
-    <br><br>
-    USE THEM WITH IMPORTANCE. GAIN THEIR WISDOM.
+	IN ANOTHER UNIVERSE, NOT TOO DISSIMILAR FROM OURS, THERE EXISTS THE PLANET
+	&lt;ASTHA&gt;. TO LEARN ABOUT THEM, WE MUST COMMUNICATE. TO COMMUNICATE, WE
+	MUST BE ABLE TO TYPE.
+	<br /><br />
+	THIS KEYCAP SET IS A MANIFESTATION OF THE &lt;ASTHAN&gt; LANGUAGE, ADAPTED FOR
+	SIMPLE ENGLISH TRANSLATION.
+	<br /><br />
+	USE THEM WITH IMPORTANCE. GAIN THEIR WISDOM.
 </p>
 <h1>details</h1>
 <p>
@@ -95,86 +99,69 @@
 <div class="image-grid">
 	<ProjectImage
 		imageSource={"https://i.imgur.com/or9PacX.png"}
-        {heightOverride}
-        headerText={"BASE - $79"}
-        headerClass={"astha-smol"}
+		{heightOverride}
+		headerText={"BASE - $79"}
+		headerClass={"astha-smol"}
 	></ProjectImage>
 	<ProjectImage
 		imageSource={"https://i.imgur.com/V2zq62r.png"}
-        {heightOverride}
-        headerText={"ASTHAN BASE - $79"}
-        headerClass={"astha-smol"}
+		{heightOverride}
+		headerText={"ASTHAN BASE - $79"}
+		headerClass={"astha-smol"}
 	></ProjectImage>
 	<ProjectImage
 		imageSource={"https://i.imgur.com/smUEqZi.png"}
-        {heightOverride}
-        headerText={"SPACEBARS - $79"}
-        headerClass={"astha-smol"}
+		{heightOverride}
+		headerText={"SPACEBARS - $79"}
+		headerClass={"astha-smol"}
 	></ProjectImage>
 	<ProjectImage
 		imageSource={"https://i.imgur.com/1WR6fF6.png"}
-        {heightOverride}
-        headerText={"ASTHAN ARTIFACTS - $79"}
-        headerClass={"astha-smol"}
+		{heightOverride}
+		headerText={"ASTHAN ARTIFACTS - $79"}
+		headerClass={"astha-smol"}
 	></ProjectImage>
 	<ProjectImage
 		imageSource={"https://i.imgur.com/T7mztT9.png"}
-        {heightOverride}
-        headerClass={"astha-smol"}
-        headerText={"DESKMAT - $20"}
+		{heightOverride}
+		headerClass={"astha-smol"}
+		headerText={"DESKMAT - $20"}
 	></ProjectImage>
 	<ProjectImage
 		imageSource={"https://i.imgur.com/FiI9fqf.png"}
-        {heightOverride}
-        headerClass={"astha-smol"}
-        headerText={"HIBI METAL CAP - $79"}
+		{heightOverride}
+		headerClass={"astha-smol"}
+		headerText={"HIBI METAL CAP - $79"}
 	></ProjectImage>
 </div>
 <h1>renders</h1>
 <div class="image-grid">
-	<ProjectImage
-		imageSource={"https://i.imgur.com/4UMhtJK.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/4UMhtJK.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/RUaORYu.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/RUaORYu.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/JRUbIFF.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/JRUbIFF.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/AsovnYx.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/AsovnYx.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/ZQkcTmh.jpg"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/ZQkcTmh.jpg"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/Ohy9AcE.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/Ohy9AcE.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/YjKajJb.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/YjKajJb.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/6v3UZJV.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/6v3UZJV.png"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/A1Ynx76.jpg"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/A1Ynx76.jpg"} {heightOverride}
 	></ProjectImage>
-	<ProjectImage
-		imageSource={"https://i.imgur.com/T701lNh.png"}
-        {heightOverride}
+	<ProjectImage imageSource={"https://i.imgur.com/T701lNh.png"} {heightOverride}
 	></ProjectImage>
 </div>
 <div class="astha">
-    <AsthaLogo width={60}></AsthaLogo></div>
+	<CircleSix height={57}></CircleSix>
+	<SeventhLogo height={53}></SeventhLogo>
+</div>
+
 <style>
 	h1,
 	h2,
@@ -197,9 +184,12 @@
 	.fullpage-wrapper {
 		height: 100vh;
 	}
-    .astha {
-        margin: 30px auto;
-        width: fit-content;
-        margin-top: 50px;
-    }
+	.astha {
+		margin: 30px auto;
+		width: fit-content;
+		margin-top: 50px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+	}
 </style>
