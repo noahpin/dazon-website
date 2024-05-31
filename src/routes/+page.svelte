@@ -1,6 +1,31 @@
 <script>
-    import HeaderImage from "$lib/components/HeaderImage.svelte"
+	import ProjectImage from "$lib/components/ProjectImage.svelte";
 </script>
+
 <h2>projects</h2>
 <a href="./kam-astha">
-    <HeaderImage imageSource={"https://i.imgur.com/4UMhtJK.png"} headerClass={"astha-header"} headerText={"KAM ASTHA"}></HeaderImage></a>
+	<ProjectImage
+		imageSource={"https://i.imgur.com/Xgtnxdd.jpeg"}
+		headerClass={"astha-header"}
+		headerText={"KAM ASTHA"}
+        status={"ic"}
+        customStatus={"Group Buy May 31st"}
+        forceView={true}
+	></ProjectImage></a
+>
+<br>
+<h2>coming soon</h2>
+<div class="image-grid">
+	<ProjectImage
+		imageSource={"https://i.imgur.com/occonX1.png"}
+		headerText={"R**W***"}
+        status={"soon"}
+        heightOverride={"min(300px, 65vh)"}
+	></ProjectImage>
+	<ProjectImage
+		imageSource={"https://i.imgur.com/mDUG8OU.png"}
+		headerText={"S*********"}
+        status={"soon"}
+        heightOverride={"min(300px, 65vh)"}
+	></ProjectImage>
+</div>
