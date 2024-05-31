@@ -103,7 +103,7 @@
 	</a>
 	<a
 		class="vendor-card"
-		href="https://en.zfrontier.com/products/group-buy-kam-astha"
+		href="https://keyreative.store/products/kam-astha-thickened-pbt-keycaps"
 		target="_blank"
 	>
 		<p>worldwide:</p>
