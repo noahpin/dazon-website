@@ -95,7 +95,7 @@
 	</a>
 	<a
 		class="vendor-card"
-		href="https://en.zfrontier.com/products/group-buy-kam-astha/"
+		href="https://www.zfrontier.com/app/mch/1JKkkDkq5PRl"
 		target="_blank"
 	>
 		<p>cn:</p>
@@ -147,7 +147,7 @@
 		imageSource={"https://i.imgur.com/FiI9fqf.png"}
 		{heightOverride}
 		headerClass={"astha-smol"}
-		headerText={"HIBI METAL CAP - $79"}
+		headerText={"HIBI METAL CAP - $45"}
 	></ProjectImage>
 </div>
 <h1>renders</h1>
