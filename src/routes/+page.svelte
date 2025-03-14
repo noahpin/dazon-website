@@ -1,8 +1,11 @@
 <script>
 	import ProjectImage from "$lib/components/ProjectImage.svelte";
+	import anim from "$lib/assets/synthesize-anim.mp4"
+	import gif from "$lib/assets/synthesize-anim.gif";
 </script>
 
 <h2>projects</h2>
+<img class="syn" src={gif} />
 <a href="./kam-astha">
 	<ProjectImage
 		imageSource={"https://i.imgur.com/Xgtnxdd.jpeg"}
@@ -29,3 +32,14 @@
         heightOverride={"min(300px, 65vh)"}
 	></ProjectImage>
 </div>
+
+<style>
+	.syn {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+		padding: 50px;
+		box-sizing: border-box;
+	}
+</style>
