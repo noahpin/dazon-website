@@ -1,11 +1,13 @@
 <script>
 	import ProjectImage from "$lib/components/ProjectImage.svelte";
 	import anim from "$lib/assets/synthesize-anim.mp4"
-	import gif from "$lib/assets/synthesize-anim.gif";
+	import gif from "$lib/assets/synw.gif";
 </script>
 
 <h2>projects</h2>
+<div class="syn-w">
 <img class="syn" src={gif} />
+</div>
 <a href="./kam-astha">
 	<ProjectImage
 		imageSource={"https://i.imgur.com/Xgtnxdd.jpeg"}
@@ -41,5 +43,20 @@
 		display: block;
 		padding: 50px;
 		box-sizing: border-box;
+		position: relative;
+	}
+	.syn-w {
+		position: relative
+	}
+	.syn-w::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-color: #fe5000;
+		mix-blend-mode: multiply;
 	}
 </style>
